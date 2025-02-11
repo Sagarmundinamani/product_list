@@ -1,6 +1,8 @@
 // src/App.js
 import React from 'react';
 import ProductCard from './ProductCard';
+import './App.css';
+
 
 function App() {
   const products = [

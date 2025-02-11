@@ -1,12 +1,33 @@
 /* src/App.css */
 .App {
   text-align: center;
+  background-color: #121212;
+  color: #fff;
   padding: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #ffcc00;
 }
 
 .product-list {
   display: flex;
   flex-wrap: wrap;
+  gap: 20px;
   justify-content: center;
-  gap: 16px;
+}
+
+.product-card {
+  background: #1a1a1a;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(255, 255, 255, 0.2);
 }
